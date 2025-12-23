@@ -1,0 +1,22 @@
+.image {
+  width: 180px;
+  height: 240px;
+}
+.card {
+  padding: 10px;
+  width: 200px;
+  height: 420px;
+  box-shadow: 1px 6px 4px 5px lightgrey;
+  border-radius: 10px;
+  margin: 15px;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 1px 6px 4px 5px rgb(162, 162, 159);
+  transition: all 0.6;
+  cursor: pointer;
+}
+
+.title {
+  height: 85px;
+}

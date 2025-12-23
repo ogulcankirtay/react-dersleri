@@ -1,0 +1,27 @@
+.logo{
+
+    width: 100px;
+    height: 80px;   
+}
+.logo-text{
+    font-family: arial;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.search-input{
+border: none;
+border-bottom: 1px solid lightblue;
+padding: 5px 10px;
+outline: none;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.icons:hover{
+cursor: pointer;
+}

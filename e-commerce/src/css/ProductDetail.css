@@ -1,0 +1,36 @@
+.image{
+    width: 500;
+    height: 600;
+}
+.body{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detail{
+margin-left: 100px;
+font-family: serif;
+}
+p{
+    font-size: 20px;
+}
+
+.price{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(216, 3, 3);
+}
+.icon{
+    font-size: 40px;
+}
+
+.count{
+    font-size: 40px;
+}
+.count-div{
+    display: flex;
+    align-items: center;
+    
+}

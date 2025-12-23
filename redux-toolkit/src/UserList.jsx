@@ -6,7 +6,7 @@ import User from './User'
 
 function UserList() {
     const { users } = useSelector(store => store.user)
-    console.log(users)
+
     const dispath = useDispatch();
     useEffect(() => {
         dispath(getUsers())
