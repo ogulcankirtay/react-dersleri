@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+form{
+  width: 500px;
+}
+input{
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color:rgb(22,22,22);
+  border-radius: 5px;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+  color: white;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputDiv{
+  margin: 30px -0px;
+}
+.submitButton{
+  font-weight: bold;
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: gold;
+  border: none;
+}
+.checkBoxDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
