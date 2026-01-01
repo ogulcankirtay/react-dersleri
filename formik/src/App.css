@@ -44,3 +44,8 @@ input{
   align-items: flex-start;
   
 }
+.input-error{
+font-size: 15px;
+color: rgb(183, 73, 73);
+
+}
